@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_e2030f90f2338e9bbe8e7b39968fe409" kind="dir">
+    <compoundname>BlazorWebApp/wwwroot/css</compoundname>
+    <innerdir refid="dir_24fd33db5f715f2495929b8a24ba4d74">BlazorWebApp/wwwroot/css/open-iconic</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BlazorWebApp/wwwroot/css/"/>
+  </compounddef>
+</doxygen>

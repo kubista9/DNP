@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_23c7e7ee894670ba1e85431779b6cbd9" kind="dir">
+    <compoundname>ClientsHttp/Implementations</compoundname>
+    <innerfile refid="_post_http_client_8cs">PostHttpClient.cs</innerfile>
+    <innerfile refid="_clients_http_2_implementations_2_user_http_client_8cs">UserHttpClient.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ClientsHttp/Implementations/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_http_client_1_1_client_interfaces" kind="namespace" language="C#">
+    <compoundname>HttpClient::ClientInterfaces</compoundname>
+    <innerclass refid="interface_http_client_1_1_client_interfaces_1_1_i_user_service" prot="public">HttpClient::ClientInterfaces::IUserService</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="HttpClients/ClientInterfaces/IUserService.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

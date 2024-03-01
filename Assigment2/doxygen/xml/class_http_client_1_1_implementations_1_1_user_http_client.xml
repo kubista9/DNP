@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_http_client_1_1_implementations_1_1_user_http_client" kind="class" language="C#" prot="public">
+    <compoundname>HttpClient::Implementations::UserHttpClient</compoundname>
+    <basecompoundref refid="interface_http_client_1_1_client_interfaces_1_1_i_user_service" prot="public" virt="non-virtual">HttpClient.ClientInterfaces.IUserService</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_http_client_1_1_implementations_1_1_user_http_client_1ae809d75fa0ea2e167e89f5dcc17fb7d0" prot="private" static="no" mutable="no">
+        <type>readonly HttpClient</type>
+        <definition>readonly HttpClient HttpClient.Implementations.UserHttpClient.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <qualifiedname>HttpClient.Implementations.UserHttpClient.client</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HttpClients/Implementations/UserHttpClient.cs" line="10" column="33" bodyfile="HttpClients/Implementations/UserHttpClient.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_http_client_1_1_implementations_1_1_user_http_client_1a8e1795d9b2dfac9db3d7563a9ae3d93c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HttpClient.Implementations.UserHttpClient.UserHttpClient</definition>
+        <argsstring>(HttpClient client)</argsstring>
+        <name>UserHttpClient</name>
+        <qualifiedname>HttpClient.Implementations.UserHttpClient.UserHttpClient</qualifiedname>
+        <param>
+          <type>HttpClient</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HttpClients/Implementations/UserHttpClient.cs" line="12" column="12" bodyfile="HttpClients/Implementations/UserHttpClient.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_http_client_1_1_implementations_1_1_user_http_client_1ac6690ab70656f345fa55b9219170bf78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_domain_1_1models_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>async Task&lt; User &gt; HttpClient.Implementations.UserHttpClient.Create</definition>
+        <argsstring>(UserCreationDto dto)</argsstring>
+        <name>Create</name>
+        <qualifiedname>HttpClient.Implementations.UserHttpClient.Create</qualifiedname>
+        <reimplements refid="interface_http_client_1_1_client_interfaces_1_1_i_user_service_1a571ca4a71f74364523029dd71116b6d8">Create</reimplements>
+        <param>
+          <type><ref refid="class_domain_1_1_d_t_os_1_1_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HttpClients/Implementations/UserHttpClient.cs" line="17" column="23" bodyfile="HttpClients/Implementations/UserHttpClient.cs" bodystart="17" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_http_client_1_1_implementations_1_1_user_http_client_1a273e25396b6739d5d406783cae6fa901" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IEnumerable&lt; <ref refid="class_domain_1_1models_1_1_user" kindref="compound">User</ref> &gt; &gt;</type>
+        <definition>async Task&lt; IEnumerable&lt; User &gt; &gt; HttpClient.Implementations.UserHttpClient.GetUsers</definition>
+        <argsstring>(string? usernameContains=null)</argsstring>
+        <name>GetUsers</name>
+        <qualifiedname>HttpClient.Implementations.UserHttpClient.GetUsers</qualifiedname>
+        <param>
+          <type>string?</type>
+          <declname>usernameContains</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HttpClients/Implementations/UserHttpClient.cs" line="33" column="23" bodyfile="HttpClients/Implementations/UserHttpClient.cs" bodystart="33" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>HttpClient.Implementations.UserHttpClient</label>
+        <link refid="class_http_client_1_1_implementations_1_1_user_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUserService</label>
+        <link refid="interface_http_client_1_1_client_interfaces_1_1_i_user_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>HttpClient.Implementations.UserHttpClient</label>
+        <link refid="class_http_client_1_1_implementations_1_1_user_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUserService</label>
+        <link refid="interface_http_client_1_1_client_interfaces_1_1_i_user_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="HttpClients/Implementations/UserHttpClient.cs" line="8" column="7" bodyfile="HttpClients/Implementations/UserHttpClient.cs" bodystart="9" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_http_client_1_1_implementations_1_1_user_http_client_1ae809d75fa0ea2e167e89f5dcc17fb7d0" prot="private" virt="non-virtual"><scope>HttpClient::Implementations::UserHttpClient</scope><name>client</name></member>
+      <member refid="class_http_client_1_1_implementations_1_1_user_http_client_1ac6690ab70656f345fa55b9219170bf78" prot="public" virt="non-virtual"><scope>HttpClient::Implementations::UserHttpClient</scope><name>Create</name></member>
+      <member refid="class_http_client_1_1_implementations_1_1_user_http_client_1a273e25396b6739d5d406783cae6fa901" prot="public" virt="non-virtual"><scope>HttpClient::Implementations::UserHttpClient</scope><name>GetUsers</name></member>
+      <member refid="class_http_client_1_1_implementations_1_1_user_http_client_1a8e1795d9b2dfac9db3d7563a9ae3d93c" prot="public" virt="non-virtual"><scope>HttpClient::Implementations::UserHttpClient</scope><name>UserHttpClient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

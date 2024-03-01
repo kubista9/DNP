@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_blazor_app1_1_1_data_1_1_post" kind="class" language="C#" prot="public">
+    <compoundname>BlazorApp1::Data::Post</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_blazor_app1_1_1_data_1_1_post_1a87b68d414ba4d4fb4ac925b01179e00d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_domain_1_1models_1_1_user" kindref="compound">User</ref>?</type>
+        <definition>User? BlazorApp1.Data.Post.Owner</definition>
+        <argsstring></argsstring>
+        <name>Owner</name>
+        <qualifiedname>BlazorApp1.Data.Post.Owner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Data/Post.cs" line="7" column="13" bodyfile="BlazorApp/Data/Post.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_blazor_app1_1_1_data_1_1_post_1ae279e07da213865e762a37a7b430f57b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? BlazorApp1.Data.Post.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>BlazorApp1.Data.Post.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Data/Post.cs" line="8" column="15" bodyfile="BlazorApp/Data/Post.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_blazor_app1_1_1_data_1_1_post_1a8b83cf7980c37c2628eef14a7ff26f84" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? BlazorApp1.Data.Post.PostBody</definition>
+        <argsstring></argsstring>
+        <name>PostBody</name>
+        <qualifiedname>BlazorApp1.Data.Post.PostBody</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Data/Post.cs" line="9" column="15" bodyfile="BlazorApp/Data/Post.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BlazorApp/Data/Post.cs" line="5" column="7" bodyfile="BlazorApp/Data/Post.cs" bodystart="6" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_blazor_app1_1_1_data_1_1_post_1a87b68d414ba4d4fb4ac925b01179e00d" prot="public" virt="non-virtual"><scope>BlazorApp1::Data::Post</scope><name>Owner</name></member>
+      <member refid="class_blazor_app1_1_1_data_1_1_post_1a8b83cf7980c37c2628eef14a7ff26f84" prot="public" virt="non-virtual"><scope>BlazorApp1::Data::Post</scope><name>PostBody</name></member>
+      <member refid="class_blazor_app1_1_1_data_1_1_post_1ae279e07da213865e762a37a7b430f57b" prot="public" virt="non-virtual"><scope>BlazorApp1::Data::Post</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

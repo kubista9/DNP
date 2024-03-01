@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_shared_1_1_d_t_os_1_1_search_user_parameters_dto" kind="class" language="C#" prot="public">
+    <compoundname>Shared::DTOs::SearchUserParametersDto</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_shared_1_1_d_t_os_1_1_search_user_parameters_dto_1a1ee1e5c69e83b0958007eae9c9856860" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? Shared.DTOs.SearchUserParametersDto.UsernameContains</definition>
+        <argsstring></argsstring>
+        <name>UsernameContains</name>
+        <qualifiedname>Shared.DTOs.SearchUserParametersDto.UsernameContains</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/DTOs/SearchUserParametersDto.cs" line="5" column="15" bodyfile="Domain/DTOs/SearchUserParametersDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shared_1_1_d_t_os_1_1_search_user_parameters_dto_1ad5262f693904d0f91009a60f811bf1ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Shared.DTOs.SearchUserParametersDto.SearchUserParametersDto</definition>
+        <argsstring>(string? usernameContains)</argsstring>
+        <name>SearchUserParametersDto</name>
+        <qualifiedname>Shared.DTOs.SearchUserParametersDto.SearchUserParametersDto</qualifiedname>
+        <param>
+          <type>string?</type>
+          <declname>usernameContains</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/DTOs/SearchUserParametersDto.cs" line="7" column="8" bodyfile="Domain/DTOs/SearchUserParametersDto.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Domain/DTOs/SearchUserParametersDto.cs" line="3" column="7" bodyfile="Domain/DTOs/SearchUserParametersDto.cs" bodystart="4" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_shared_1_1_d_t_os_1_1_search_user_parameters_dto_1ad5262f693904d0f91009a60f811bf1ac" prot="public" virt="non-virtual"><scope>Shared::DTOs::SearchUserParametersDto</scope><name>SearchUserParametersDto</name></member>
+      <member refid="class_shared_1_1_d_t_os_1_1_search_user_parameters_dto_1a1ee1e5c69e83b0958007eae9c9856860" prot="public" virt="non-virtual"><scope>Shared::DTOs::SearchUserParametersDto</scope><name>UsernameContains</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

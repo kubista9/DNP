@@ -1,0 +1,78 @@
+\doxysection{Application.\+Logic.\+Post\+Logic Class Reference}
+\hypertarget{class_application_1_1_logic_1_1_post_logic}{}\label{class_application_1_1_logic_1_1_post_logic}\index{Application.Logic.PostLogic@{Application.Logic.PostLogic}}
+Inheritance diagram for Application.\+Logic.\+Post\+Logic\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_application_1_1_logic_1_1_post_logic}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_application_1_1_logic_1_1_post_logic_ae9d745e7b6ba6fa1640d4e8ce3a8e782}{Post\+Logic}} (\mbox{\hyperlink{interface_application_1_1_dao_interfaces_1_1_i_post_dao}{IPost\+Dao}} post\+Dao, \mbox{\hyperlink{interface_application_1_1_dao_interfaces_1_1_i_user_dao}{IUser\+Dao}} user\+Dao)
+\item 
+async Task$<$ \mbox{\hyperlink{class_domain_1_1models_1_1_post}{Post}} $>$ \mbox{\hyperlink{class_application_1_1_logic_1_1_post_logic_a182e8451739675e863f08eb7b37d9b5e}{Create\+Async}} (\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_creation_dto}{Post\+Creation\+Dto}} dto)
+\item 
+Task$<$ IEnumerable$<$ \mbox{\hyperlink{class_domain_1_1models_1_1_post}{Post}} $>$ $>$ \mbox{\hyperlink{class_application_1_1_logic_1_1_post_logic_a05fa70cf013c89b1a0919b2002c7189a}{Get\+Async}} (\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_search_post_parameters_dto}{Search\+Post\+Parameters\+Dto}} search\+Parameters)
+\item 
+async Task \mbox{\hyperlink{class_application_1_1_logic_1_1_post_logic_ac803ae68fe48533a7f4393383b910259}{Update\+Async}} (\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_update_dto}{Post\+Update\+Dto}} dto)
+\item 
+async Task$<$ \mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_basic_dto}{Post\+Basic\+Dto}} $>$ \mbox{\hyperlink{class_application_1_1_logic_1_1_post_logic_ad1ef28d5184eac3ff03a5d79fac7db8e}{Get\+By\+Id\+Async}} (int id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_application_1_1_logic_1_1_post_logic_ae9d745e7b6ba6fa1640d4e8ce3a8e782}\label{class_application_1_1_logic_1_1_post_logic_ae9d745e7b6ba6fa1640d4e8ce3a8e782} 
+\index{Application.Logic.PostLogic@{Application.Logic.PostLogic}!PostLogic@{PostLogic}}
+\index{PostLogic@{PostLogic}!Application.Logic.PostLogic@{Application.Logic.PostLogic}}
+\doxysubsubsection{\texorpdfstring{PostLogic()}{PostLogic()}}
+{\footnotesize\ttfamily Application.\+Logic.\+Post\+Logic.\+Post\+Logic (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_application_1_1_dao_interfaces_1_1_i_post_dao}{IPost\+Dao}}}]{post\+Dao,  }\item[{\mbox{\hyperlink{interface_application_1_1_dao_interfaces_1_1_i_user_dao}{IUser\+Dao}}}]{user\+Dao }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_application_1_1_logic_1_1_post_logic_a182e8451739675e863f08eb7b37d9b5e}\label{class_application_1_1_logic_1_1_post_logic_a182e8451739675e863f08eb7b37d9b5e} 
+\index{Application.Logic.PostLogic@{Application.Logic.PostLogic}!CreateAsync@{CreateAsync}}
+\index{CreateAsync@{CreateAsync}!Application.Logic.PostLogic@{Application.Logic.PostLogic}}
+\doxysubsubsection{\texorpdfstring{CreateAsync()}{CreateAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_domain_1_1models_1_1_post}{Post}} $>$ Application.\+Logic.\+Post\+Logic.\+Create\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_creation_dto}{Post\+Creation\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_application_1_1_logic_interfaces_1_1_i_post_logic_a0d6fea54b1b854ff16200fc8a8c9d9ad}{Application.\+Logic\+Interfaces.\+IPost\+Logic}}.
+
+\Hypertarget{class_application_1_1_logic_1_1_post_logic_a05fa70cf013c89b1a0919b2002c7189a}\label{class_application_1_1_logic_1_1_post_logic_a05fa70cf013c89b1a0919b2002c7189a} 
+\index{Application.Logic.PostLogic@{Application.Logic.PostLogic}!GetAsync@{GetAsync}}
+\index{GetAsync@{GetAsync}!Application.Logic.PostLogic@{Application.Logic.PostLogic}}
+\doxysubsubsection{\texorpdfstring{GetAsync()}{GetAsync()}}
+{\footnotesize\ttfamily Task$<$ IEnumerable$<$ \mbox{\hyperlink{class_domain_1_1models_1_1_post}{Post}} $>$ $>$ Application.\+Logic.\+Post\+Logic.\+Get\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_search_post_parameters_dto}{Search\+Post\+Parameters\+Dto}}}]{search\+Parameters }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_application_1_1_logic_interfaces_1_1_i_post_logic_aba5061e67476a91ad473e1597fbf9c66}{Application.\+Logic\+Interfaces.\+IPost\+Logic}}.
+
+\Hypertarget{class_application_1_1_logic_1_1_post_logic_ad1ef28d5184eac3ff03a5d79fac7db8e}\label{class_application_1_1_logic_1_1_post_logic_ad1ef28d5184eac3ff03a5d79fac7db8e} 
+\index{Application.Logic.PostLogic@{Application.Logic.PostLogic}!GetByIdAsync@{GetByIdAsync}}
+\index{GetByIdAsync@{GetByIdAsync}!Application.Logic.PostLogic@{Application.Logic.PostLogic}}
+\doxysubsubsection{\texorpdfstring{GetByIdAsync()}{GetByIdAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_basic_dto}{Post\+Basic\+Dto}} $>$ Application.\+Logic.\+Post\+Logic.\+Get\+By\+Id\+Async (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_application_1_1_logic_interfaces_1_1_i_post_logic_ad1ca02a5fc9edcb907017d65df3a9c84}{Application.\+Logic\+Interfaces.\+IPost\+Logic}}.
+
+\Hypertarget{class_application_1_1_logic_1_1_post_logic_ac803ae68fe48533a7f4393383b910259}\label{class_application_1_1_logic_1_1_post_logic_ac803ae68fe48533a7f4393383b910259} 
+\index{Application.Logic.PostLogic@{Application.Logic.PostLogic}!UpdateAsync@{UpdateAsync}}
+\index{UpdateAsync@{UpdateAsync}!Application.Logic.PostLogic@{Application.Logic.PostLogic}}
+\doxysubsubsection{\texorpdfstring{UpdateAsync()}{UpdateAsync()}}
+{\footnotesize\ttfamily async Task Application.\+Logic.\+Post\+Logic.\+Update\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_update_dto}{Post\+Update\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_application_1_1_logic_interfaces_1_1_i_post_logic_aec125cfbaf249cbe95ed082cbcb6966c}{Application.\+Logic\+Interfaces.\+IPost\+Logic}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Application/\+Logic/\mbox{\hyperlink{_post_logic_8cs}{Post\+Logic.\+cs}}\end{DoxyCompactItemize}

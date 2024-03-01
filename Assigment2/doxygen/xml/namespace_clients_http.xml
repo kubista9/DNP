@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_clients_http" kind="namespace" language="C#">
+    <compoundname>ClientsHttp</compoundname>
+    <innernamespace refid="namespace_clients_http_1_1_client_interfaces">ClientsHttp::ClientInterfaces</innernamespace>
+    <innernamespace refid="namespace_clients_http_1_1_implementations">ClientsHttp::Implementations</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ClientsHttp/ClientInterfaces/IPostService.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

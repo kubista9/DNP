@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_domain_1_1_d_t_os_1_1_post_basic_dto" kind="class" language="C#" prot="public">
+    <compoundname>Domain::DTOs::PostBasicDto</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_post_basic_dto_1ac9d45c5415762ebe1f9aba92abb40333" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Domain.DTOs.PostBasicDto.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>Domain.DTOs.PostBasicDto.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/DTOs/PostBasicDto.cs" line="5" column="16" bodyfile="Domain/DTOs/PostBasicDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_post_basic_dto_1a48ee4206049768398ba25dc9bd0f0413" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain.DTOs.PostBasicDto.OwnerName</definition>
+        <argsstring></argsstring>
+        <name>OwnerName</name>
+        <qualifiedname>Domain.DTOs.PostBasicDto.OwnerName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/DTOs/PostBasicDto.cs" line="6" column="19" bodyfile="Domain/DTOs/PostBasicDto.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_post_basic_dto_1a5fc66895778cebc678a18b826a40c740" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain.DTOs.PostBasicDto.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>Domain.DTOs.PostBasicDto.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/DTOs/PostBasicDto.cs" line="7" column="19" bodyfile="Domain/DTOs/PostBasicDto.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_post_basic_dto_1a325b89d36ec5cbbf75bc4d6d0944d79d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain.DTOs.PostBasicDto.Body</definition>
+        <argsstring></argsstring>
+        <name>Body</name>
+        <qualifiedname>Domain.DTOs.PostBasicDto.Body</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/DTOs/PostBasicDto.cs" line="8" column="19" bodyfile="Domain/DTOs/PostBasicDto.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_domain_1_1_d_t_os_1_1_post_basic_dto_1a8850e9dce2428c12670fb3dcbc1c3113" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Domain.DTOs.PostBasicDto.PostBasicDto</definition>
+        <argsstring>(int id, string ownerName, string title, string body)</argsstring>
+        <name>PostBasicDto</name>
+        <qualifiedname>Domain.DTOs.PostBasicDto.PostBasicDto</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ownerName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/DTOs/PostBasicDto.cs" line="10" column="12" bodyfile="Domain/DTOs/PostBasicDto.cs" bodystart="10" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Domain/DTOs/PostBasicDto.cs" line="3" column="7" bodyfile="Domain/DTOs/PostBasicDto.cs" bodystart="4" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_basic_dto_1a325b89d36ec5cbbf75bc4d6d0944d79d" prot="public" virt="non-virtual"><scope>Domain::DTOs::PostBasicDto</scope><name>Body</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_basic_dto_1ac9d45c5415762ebe1f9aba92abb40333" prot="public" virt="non-virtual"><scope>Domain::DTOs::PostBasicDto</scope><name>Id</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_basic_dto_1a48ee4206049768398ba25dc9bd0f0413" prot="public" virt="non-virtual"><scope>Domain::DTOs::PostBasicDto</scope><name>OwnerName</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_basic_dto_1a8850e9dce2428c12670fb3dcbc1c3113" prot="public" virt="non-virtual"><scope>Domain::DTOs::PostBasicDto</scope><name>PostBasicDto</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_basic_dto_1a5fc66895778cebc678a18b826a40c740" prot="public" virt="non-virtual"><scope>Domain::DTOs::PostBasicDto</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

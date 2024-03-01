@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_clients_http_1_1_implementations_1_1_post_http_client" kind="class" language="C#" prot="public">
+    <compoundname>ClientsHttp::Implementations::PostHttpClient</compoundname>
+    <basecompoundref refid="interface_clients_http_1_1_client_interfaces_1_1_i_post_service" prot="public" virt="non-virtual">ClientsHttp.ClientInterfaces.IPostService</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_clients_http_1_1_implementations_1_1_post_http_client_1ac182a1472fe342c2c3245aaf86772212" prot="private" static="no" mutable="no">
+        <type>readonly HttpClient</type>
+        <definition>readonly HttpClient ClientsHttp.Implementations.PostHttpClient._client</definition>
+        <argsstring></argsstring>
+        <name>_client</name>
+        <qualifiedname>ClientsHttp.Implementations.PostHttpClient._client</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientsHttp/Implementations/PostHttpClient.cs" line="12" column="29" bodyfile="ClientsHttp/Implementations/PostHttpClient.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_clients_http_1_1_implementations_1_1_post_http_client_1a3357bbd415e6df583dfd870443dde787" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ClientsHttp.Implementations.PostHttpClient.PostHttpClient</definition>
+        <argsstring>(HttpClient client)</argsstring>
+        <name>PostHttpClient</name>
+        <qualifiedname>ClientsHttp.Implementations.PostHttpClient.PostHttpClient</qualifiedname>
+        <param>
+          <type>HttpClient</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientsHttp/Implementations/PostHttpClient.cs" line="14" column="8" bodyfile="ClientsHttp/Implementations/PostHttpClient.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clients_http_1_1_implementations_1_1_post_http_client_1ab5a6e3e2b9a6b762630a82f97a8d22f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task ClientsHttp.Implementations.PostHttpClient.CreateAsync</definition>
+        <argsstring>(PostCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>ClientsHttp.Implementations.PostHttpClient.CreateAsync</qualifiedname>
+        <reimplements refid="interface_clients_http_1_1_client_interfaces_1_1_i_post_service_1a61f4467d8d041e2d95a024c75b769c2a">CreateAsync</reimplements>
+        <param>
+          <type><ref refid="class_domain_1_1_d_t_os_1_1_post_creation_dto" kindref="compound">PostCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientsHttp/Implementations/PostHttpClient.cs" line="19" column="19" bodyfile="ClientsHttp/Implementations/PostHttpClient.cs" bodystart="19" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clients_http_1_1_implementations_1_1_post_http_client_1a3e28f15b446afff4b12dde71140800ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ICollection&lt; <ref refid="class_domain_1_1models_1_1_post" kindref="compound">Post</ref> &gt; &gt;</type>
+        <definition>async Task&lt; ICollection&lt; Post &gt; &gt; ClientsHttp.Implementations.PostHttpClient.GetAsync</definition>
+        <argsstring>(string? userName, int? userId, string? titleContains)</argsstring>
+        <name>GetAsync</name>
+        <qualifiedname>ClientsHttp.Implementations.PostHttpClient.GetAsync</qualifiedname>
+        <reimplements refid="interface_clients_http_1_1_client_interfaces_1_1_i_post_service_1ac41943df028dd3c69e4eb76a5f40bc2b">GetAsync</reimplements>
+        <param>
+          <type>string?</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>userId</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>titleContains</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientsHttp/Implementations/PostHttpClient.cs" line="29" column="19" bodyfile="ClientsHttp/Implementations/PostHttpClient.cs" bodystart="29" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clients_http_1_1_implementations_1_1_post_http_client_1a4f6e9c1cb7fba156f19013db345709f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task ClientsHttp.Implementations.PostHttpClient.UpdateAsync</definition>
+        <argsstring>(PostUpdateDto dto)</argsstring>
+        <name>UpdateAsync</name>
+        <qualifiedname>ClientsHttp.Implementations.PostHttpClient.UpdateAsync</qualifiedname>
+        <reimplements refid="interface_clients_http_1_1_client_interfaces_1_1_i_post_service_1a8197fe27a707d726b216a844e1125c92">UpdateAsync</reimplements>
+        <param>
+          <type><ref refid="class_domain_1_1_d_t_os_1_1_post_update_dto" kindref="compound">PostUpdateDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientsHttp/Implementations/PostHttpClient.cs" line="70" column="19" bodyfile="ClientsHttp/Implementations/PostHttpClient.cs" bodystart="70" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clients_http_1_1_implementations_1_1_post_http_client_1a1ff5548238703f7f063418a85bcd2cc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_domain_1_1_d_t_os_1_1_post_basic_dto" kindref="compound">PostBasicDto</ref> &gt;</type>
+        <definition>async Task&lt; PostBasicDto &gt; ClientsHttp.Implementations.PostHttpClient.GetByIdAsync</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetByIdAsync</name>
+        <qualifiedname>ClientsHttp.Implementations.PostHttpClient.GetByIdAsync</qualifiedname>
+        <reimplements refid="interface_clients_http_1_1_client_interfaces_1_1_i_post_service_1a929b02b7648f7f81da8e2db90b8250ae">GetByIdAsync</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientsHttp/Implementations/PostHttpClient.cs" line="83" column="19" bodyfile="ClientsHttp/Implementations/PostHttpClient.cs" bodystart="83" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_clients_http_1_1_implementations_1_1_post_http_client_1aaf6a103ccf68645251a4e4ff773a82da" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ClientsHttp.Implementations.PostHttpClient.ConstructQuery</definition>
+        <argsstring>(string? userName, int? userId, string? titleContains)</argsstring>
+        <name>ConstructQuery</name>
+        <qualifiedname>ClientsHttp.Implementations.PostHttpClient.ConstructQuery</qualifiedname>
+        <param>
+          <type>string?</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>userId</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>titleContains</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ClientsHttp/Implementations/PostHttpClient.cs" line="47" column="23" bodyfile="ClientsHttp/Implementations/PostHttpClient.cs" bodystart="47" bodyend="68"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ClientsHttp.Implementations.PostHttpClient</label>
+        <link refid="class_clients_http_1_1_implementations_1_1_post_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPostService</label>
+        <link refid="interface_clients_http_1_1_client_interfaces_1_1_i_post_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ClientsHttp.Implementations.PostHttpClient</label>
+        <link refid="class_clients_http_1_1_implementations_1_1_post_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPostService</label>
+        <link refid="interface_clients_http_1_1_client_interfaces_1_1_i_post_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="ClientsHttp/Implementations/PostHttpClient.cs" line="10" column="7" bodyfile="ClientsHttp/Implementations/PostHttpClient.cs" bodystart="11" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_clients_http_1_1_implementations_1_1_post_http_client_1ac182a1472fe342c2c3245aaf86772212" prot="private" virt="non-virtual"><scope>ClientsHttp::Implementations::PostHttpClient</scope><name>_client</name></member>
+      <member refid="class_clients_http_1_1_implementations_1_1_post_http_client_1aaf6a103ccf68645251a4e4ff773a82da" prot="private" virt="non-virtual"><scope>ClientsHttp::Implementations::PostHttpClient</scope><name>ConstructQuery</name></member>
+      <member refid="class_clients_http_1_1_implementations_1_1_post_http_client_1ab5a6e3e2b9a6b762630a82f97a8d22f8" prot="public" virt="non-virtual"><scope>ClientsHttp::Implementations::PostHttpClient</scope><name>CreateAsync</name></member>
+      <member refid="class_clients_http_1_1_implementations_1_1_post_http_client_1a3e28f15b446afff4b12dde71140800ee" prot="public" virt="non-virtual"><scope>ClientsHttp::Implementations::PostHttpClient</scope><name>GetAsync</name></member>
+      <member refid="class_clients_http_1_1_implementations_1_1_post_http_client_1a1ff5548238703f7f063418a85bcd2cc9" prot="public" virt="non-virtual"><scope>ClientsHttp::Implementations::PostHttpClient</scope><name>GetByIdAsync</name></member>
+      <member refid="class_clients_http_1_1_implementations_1_1_post_http_client_1a3357bbd415e6df583dfd870443dde787" prot="public" virt="non-virtual"><scope>ClientsHttp::Implementations::PostHttpClient</scope><name>PostHttpClient</name></member>
+      <member refid="class_clients_http_1_1_implementations_1_1_post_http_client_1a4f6e9c1cb7fba156f19013db345709f7" prot="public" virt="non-virtual"><scope>ClientsHttp::Implementations::PostHttpClient</scope><name>UpdateAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

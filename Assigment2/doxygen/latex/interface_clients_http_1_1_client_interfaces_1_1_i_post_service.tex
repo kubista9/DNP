@@ -1,0 +1,67 @@
+\doxysection{Clients\+Http.\+Client\+Interfaces.\+IPost\+Service Interface Reference}
+\hypertarget{interface_clients_http_1_1_client_interfaces_1_1_i_post_service}{}\label{interface_clients_http_1_1_client_interfaces_1_1_i_post_service}\index{ClientsHttp.ClientInterfaces.IPostService@{ClientsHttp.ClientInterfaces.IPostService}}
+Inheritance diagram for Clients\+Http.\+Client\+Interfaces.\+IPost\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_clients_http_1_1_client_interfaces_1_1_i_post_service}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Task \mbox{\hyperlink{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_a61f4467d8d041e2d95a024c75b769c2a}{Create\+Async}} (\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_creation_dto}{Post\+Creation\+Dto}} dto)
+\item 
+Task$<$ ICollection$<$ \mbox{\hyperlink{class_domain_1_1models_1_1_post}{Post}} $>$ $>$ \mbox{\hyperlink{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_ac41943df028dd3c69e4eb76a5f40bc2b}{Get\+Async}} (string? username, int? user\+Id, string? title\+Contains)
+\item 
+Task \mbox{\hyperlink{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_a8197fe27a707d726b216a844e1125c92}{Update\+Async}} (\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_update_dto}{Post\+Update\+Dto}} dto)
+\item 
+Task$<$ \mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_basic_dto}{Post\+Basic\+Dto}} $>$ \mbox{\hyperlink{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_a929b02b7648f7f81da8e2db90b8250ae}{Get\+By\+Id\+Async}} (int id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_a61f4467d8d041e2d95a024c75b769c2a}\label{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_a61f4467d8d041e2d95a024c75b769c2a} 
+\index{ClientsHttp.ClientInterfaces.IPostService@{ClientsHttp.ClientInterfaces.IPostService}!CreateAsync@{CreateAsync}}
+\index{CreateAsync@{CreateAsync}!ClientsHttp.ClientInterfaces.IPostService@{ClientsHttp.ClientInterfaces.IPostService}}
+\doxysubsubsection{\texorpdfstring{CreateAsync()}{CreateAsync()}}
+{\footnotesize\ttfamily Task Clients\+Http.\+Client\+Interfaces.\+IPost\+Service.\+Create\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_creation_dto}{Post\+Creation\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_clients_http_1_1_implementations_1_1_post_http_client_ab5a6e3e2b9a6b762630a82f97a8d22f8}{Clients\+Http.\+Implementations.\+Post\+Http\+Client}}.
+
+\Hypertarget{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_ac41943df028dd3c69e4eb76a5f40bc2b}\label{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_ac41943df028dd3c69e4eb76a5f40bc2b} 
+\index{ClientsHttp.ClientInterfaces.IPostService@{ClientsHttp.ClientInterfaces.IPostService}!GetAsync@{GetAsync}}
+\index{GetAsync@{GetAsync}!ClientsHttp.ClientInterfaces.IPostService@{ClientsHttp.ClientInterfaces.IPostService}}
+\doxysubsubsection{\texorpdfstring{GetAsync()}{GetAsync()}}
+{\footnotesize\ttfamily Task$<$ ICollection$<$ \mbox{\hyperlink{class_domain_1_1models_1_1_post}{Post}} $>$ $>$ Clients\+Http.\+Client\+Interfaces.\+IPost\+Service.\+Get\+Async (\begin{DoxyParamCaption}\item[{string?}]{username,  }\item[{int?}]{user\+Id,  }\item[{string?}]{title\+Contains }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_clients_http_1_1_implementations_1_1_post_http_client_a3e28f15b446afff4b12dde71140800ee}{Clients\+Http.\+Implementations.\+Post\+Http\+Client}}.
+
+\Hypertarget{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_a929b02b7648f7f81da8e2db90b8250ae}\label{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_a929b02b7648f7f81da8e2db90b8250ae} 
+\index{ClientsHttp.ClientInterfaces.IPostService@{ClientsHttp.ClientInterfaces.IPostService}!GetByIdAsync@{GetByIdAsync}}
+\index{GetByIdAsync@{GetByIdAsync}!ClientsHttp.ClientInterfaces.IPostService@{ClientsHttp.ClientInterfaces.IPostService}}
+\doxysubsubsection{\texorpdfstring{GetByIdAsync()}{GetByIdAsync()}}
+{\footnotesize\ttfamily Task$<$ \mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_basic_dto}{Post\+Basic\+Dto}} $>$ Clients\+Http.\+Client\+Interfaces.\+IPost\+Service.\+Get\+By\+Id\+Async (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_clients_http_1_1_implementations_1_1_post_http_client_a1ff5548238703f7f063418a85bcd2cc9}{Clients\+Http.\+Implementations.\+Post\+Http\+Client}}.
+
+\Hypertarget{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_a8197fe27a707d726b216a844e1125c92}\label{interface_clients_http_1_1_client_interfaces_1_1_i_post_service_a8197fe27a707d726b216a844e1125c92} 
+\index{ClientsHttp.ClientInterfaces.IPostService@{ClientsHttp.ClientInterfaces.IPostService}!UpdateAsync@{UpdateAsync}}
+\index{UpdateAsync@{UpdateAsync}!ClientsHttp.ClientInterfaces.IPostService@{ClientsHttp.ClientInterfaces.IPostService}}
+\doxysubsubsection{\texorpdfstring{UpdateAsync()}{UpdateAsync()}}
+{\footnotesize\ttfamily Task Clients\+Http.\+Client\+Interfaces.\+IPost\+Service.\+Update\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_update_dto}{Post\+Update\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_clients_http_1_1_implementations_1_1_post_http_client_a4f6e9c1cb7fba156f19013db345709f7}{Clients\+Http.\+Implementations.\+Post\+Http\+Client}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Clients\+Http/\+Client\+Interfaces/\mbox{\hyperlink{_i_post_service_8cs}{IPost\+Service.\+cs}}\end{DoxyCompactItemize}

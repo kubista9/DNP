@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_59b5a8f17eaa1398b34b909bb5ddde09" kind="dir">
+    <compoundname>BlazorApp/obj/Debug/net7.0</compoundname>
+    <innerfile refid="_blazor_app_2obj_2_debug_2net7_80_2_8_n_e_t_core_app_00_version_0av7_80_8_assembly_attributes_8cs">.NETCoreApp,Version=v7.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_blazor_app_8_assembly_info_8cs">BlazorApp.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_blazor_app_8_global_usings_8g_8cs">BlazorApp.GlobalUsings.g.cs</innerfile>
+    <innerfile refid="_blazor_app_8_razor_assembly_info_8cs">BlazorApp.RazorAssemblyInfo.cs</innerfile>
+    <innerfile refid="_blazor_app1_8_assembly_info_8cs">BlazorApp1.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_blazor_app1_8_global_usings_8g_8cs">BlazorApp1.GlobalUsings.g.cs</innerfile>
+    <innerfile refid="_blazor_app1_8_razor_assembly_info_8cs">BlazorApp1.RazorAssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BlazorApp/obj/Debug/net7.0/"/>
+  </compounddef>
+</doxygen>

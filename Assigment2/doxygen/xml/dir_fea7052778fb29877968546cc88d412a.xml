@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_fea7052778fb29877968546cc88d412a" kind="dir">
+    <compoundname>Blazor</compoundname>
+    <innerdir refid="dir_67769673851a44cd0555abb2066365e2">Blazor/obj</innerdir>
+    <innerdir refid="dir_6712ee62b7db2dcf3cfdd0767fb1b9c2">Blazor/Pages</innerdir>
+    <innerdir refid="dir_b5321bb3acf5516ba8ad087e485d9e49">Blazor/wwwroot</innerdir>
+    <innerfile refid="_blazor_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Blazor/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_domain_1_1models_1_1_post" kind="class" language="C#" prot="public">
+    <compoundname>Domain::models::Post</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_domain_1_1models_1_1_post_1ab40a778f79adf3ccd2505c52e6ffb52f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Domain.models.Post.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>Domain.models.Post.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/models/Post.cs" line="5" column="12" bodyfile="Domain/models/Post.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1models_1_1_post_1a71ebf31a50fde7138f509aa629115bdd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_domain_1_1models_1_1_user" kindref="compound">User</ref>?</type>
+        <definition>User? Domain.models.Post.Owner</definition>
+        <argsstring></argsstring>
+        <name>Owner</name>
+        <qualifiedname>Domain.models.Post.Owner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/models/Post.cs" line="6" column="13" bodyfile="Domain/models/Post.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1models_1_1_post_1a1faad323002a991133263f4baa619e5f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? Domain.models.Post.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>Domain.models.Post.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/models/Post.cs" line="7" column="15" bodyfile="Domain/models/Post.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1models_1_1_post_1a2783cec9e9272a5feabbfa37f5cb2982" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? Domain.models.Post.Body</definition>
+        <argsstring></argsstring>
+        <name>Body</name>
+        <qualifiedname>Domain.models.Post.Body</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/models/Post.cs" line="8" column="15" bodyfile="Domain/models/Post.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_domain_1_1models_1_1_post_1ace82965b90de61f22313bb81b118c3c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Domain.models.Post.Post</definition>
+        <argsstring>(User? owner, string? title, string? body)</argsstring>
+        <name>Post</name>
+        <qualifiedname>Domain.models.Post.Post</qualifiedname>
+        <param>
+          <type><ref refid="class_domain_1_1models_1_1_user" kindref="compound">User</ref>?</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Domain/models/Post.cs" line="10" column="8" bodyfile="Domain/models/Post.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Domain/models/Post.cs" line="3" column="7" bodyfile="Domain/models/Post.cs" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_domain_1_1models_1_1_post_1a2783cec9e9272a5feabbfa37f5cb2982" prot="public" virt="non-virtual"><scope>Domain::models::Post</scope><name>Body</name></member>
+      <member refid="class_domain_1_1models_1_1_post_1ab40a778f79adf3ccd2505c52e6ffb52f" prot="public" virt="non-virtual"><scope>Domain::models::Post</scope><name>Id</name></member>
+      <member refid="class_domain_1_1models_1_1_post_1a71ebf31a50fde7138f509aa629115bdd" prot="public" virt="non-virtual"><scope>Domain::models::Post</scope><name>Owner</name></member>
+      <member refid="class_domain_1_1models_1_1_post_1ace82965b90de61f22313bb81b118c3c2" prot="public" virt="non-virtual"><scope>Domain::models::Post</scope><name>Post</name></member>
+      <member refid="class_domain_1_1models_1_1_post_1a1faad323002a991133263f4baa619e5f" prot="public" virt="non-virtual"><scope>Domain::models::Post</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

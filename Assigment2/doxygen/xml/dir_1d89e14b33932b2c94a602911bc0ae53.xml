@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_1d89e14b33932b2c94a602911bc0ae53" kind="dir">
+    <compoundname>ClientsHttp</compoundname>
+    <innerdir refid="dir_350ff365f7892e8108f36f5c54d11ff9">ClientsHttp/ClientInterfaces</innerdir>
+    <innerdir refid="dir_23c7e7ee894670ba1e85431779b6cbd9">ClientsHttp/Implementations</innerdir>
+    <innerdir refid="dir_deec5d64b9ed8349b37eb0d6afa78bc0">ClientsHttp/obj</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ClientsHttp/"/>
+  </compounddef>
+</doxygen>

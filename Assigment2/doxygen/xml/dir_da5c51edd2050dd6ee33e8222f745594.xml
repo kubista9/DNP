@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_da5c51edd2050dd6ee33e8222f745594" kind="dir">
+    <compoundname>BlazorApp/Data</compoundname>
+    <innerfile refid="_blazor_app_2_data_2_post_8cs">Post.cs</innerfile>
+    <innerfile refid="_post_service_8cs">PostService.cs</innerfile>
+    <innerfile refid="_blazor_app_2_data_2_weather_forecast_8cs">WeatherForecast.cs</innerfile>
+    <innerfile refid="_blazor_app_2_data_2_weather_forecast_service_8cs">WeatherForecastService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="BlazorApp/Data/"/>
+  </compounddef>
+</doxygen>

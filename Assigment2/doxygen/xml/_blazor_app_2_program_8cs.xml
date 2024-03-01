@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_blazor_app_2_program_8cs" kind="file" language="C#">
+    <compoundname>Program.cs</compoundname>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_components">Microsoft::AspNetCore::Components</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_web">Microsoft::AspNetCore::Components::Web</innernamespace>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_blazor_app_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" prot="public" static="no" mutable="no">
+        <type>var</type>
+        <definition>var builder</definition>
+        <argsstring></argsstring>
+        <name>builder</name>
+        <initializer>= WebApplication.CreateBuilder(args)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="5" column="5" bodyfile="BlazorApp/Program.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_blazor_app_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" prot="public" static="no" mutable="no">
+        <type>var</type>
+        <definition>var app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <initializer>= builder.Build()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="17" column="5" bodyfile="BlazorApp/Program.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_blazor_app_2_program_8cs_1a50ac3cc59e3f8d9e5c1a2734bd14b7f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddRazorPages</definition>
+        <argsstring>()</argsstring>
+        <name>AddRazorPages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="8" column="16" declfile="BlazorApp/Program.cs" declline="8" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_blazor_app_2_program_8cs_1abda56024f5b832bc28b5198cc50fbf0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddServerSideBlazor</definition>
+        <argsstring>()</argsstring>
+        <name>AddServerSideBlazor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="9" column="16" declfile="BlazorApp/Program.cs" declline="9" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_blazor_app_2_program_8cs_1a2a6b00c6a7aa2691408958c40f460c07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddSingleton&lt; WeatherForecastService &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>AddSingleton&lt; WeatherForecastService &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="10" column="8" declfile="BlazorApp/Program.cs" declline="10" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_blazor_app_2_program_8cs_1a4382e4cd5fc177547195f0d1cd3acec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddScoped</definition>
+        <argsstring>(sp=&gt; new HttpClient { BaseAddress=new Uri(&quot;https://localhost:7093&quot;) })</argsstring>
+        <name>AddScoped</name>
+        <param>
+          <type>sp</type>
+        </param>
+        <param>
+          <type>new HttpClient { BaseAddress=new Uri(&quot;https://localhost:7093&quot;) }</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="11" column="16" declfile="BlazorApp/Program.cs" declline="11" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_blazor_app_2_program_8cs_1af2d0c02efe3fbc2d94e5b6e316777c4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>if</definition>
+        <argsstring>(!app.Environment.IsDevelopment())</argsstring>
+        <name>if</name>
+        <param>
+          <type>!app.Environment.</type>
+          <declname>IsDevelopment</declname>
+          <defname>app::Environment::IsDevelopment</defname>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="20" column="1" bodyfile="BlazorApp/Program.cs" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="_blazor_app_2_program_8cs_1aa4d447fc3129a3aa301d736b8bd04ae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseHttpsRedirection</definition>
+        <argsstring>()</argsstring>
+        <name>UseHttpsRedirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="27" column="4" declfile="BlazorApp/Program.cs" declline="27" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_blazor_app_2_program_8cs_1a906a3ce545279a7a73941f1d7b64d7cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseStaticFiles</definition>
+        <argsstring>()</argsstring>
+        <name>UseStaticFiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="29" column="4" declfile="BlazorApp/Program.cs" declline="29" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_blazor_app_2_program_8cs_1a94c810d266751293a2d511a720a5625f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseRouting</definition>
+        <argsstring>()</argsstring>
+        <name>UseRouting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="31" column="4" declfile="BlazorApp/Program.cs" declline="31" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_blazor_app_2_program_8cs_1aca87b3198658808e3036d7020473bd72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. MapBlazorHub</definition>
+        <argsstring>()</argsstring>
+        <name>MapBlazorHub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="33" column="4" declfile="BlazorApp/Program.cs" declline="33" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_blazor_app_2_program_8cs_1a1f15df377aa44cd5787b1691a857bce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. MapFallbackToPage</definition>
+        <argsstring>(&quot;/_Host&quot;)</argsstring>
+        <name>MapFallbackToPage</name>
+        <param>
+          <type>&quot;/_Host&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="34" column="4" declfile="BlazorApp/Program.cs" declline="34" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_blazor_app_2_program_8cs_1aaa3dbf02e269c3ef7e8546d290c6b3dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlazorApp/Program.cs" line="36" column="4" declfile="BlazorApp/Program.cs" declline="36" declcolumn="4"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">Microsoft.AspNetCore.Components;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Microsoft.AspNetCore.Components.Web;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_blazor_app1_1_1_data" kindref="compound">BlazorApp1.Data</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">var<sp/><ref refid="_blazor_app_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref><sp/>=<sp/>WebApplication.CreateBuilder(args);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Add<sp/>services<sp/>to<sp/>the<sp/>container.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="_blazor_app_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddRazorPages();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="_blazor_app_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddServerSideBlazor();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="_blazor_app_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddSingleton&lt;<ref refid="class_blazor_app1_1_1_data_1_1_weather_forecast_service" kindref="compound">WeatherForecastService</ref>&gt;();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="_blazor_app_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddScoped(</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>sp<sp/>=&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="namespace_http_client" kindref="compound">HttpClient</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BaseAddress<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Uri(</highlight><highlight class="stringliteral">&quot;https://localhost:7093&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">var<sp/><ref refid="_blazor_app_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref><sp/>=<sp/><ref refid="_blazor_app_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Build();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Configure<sp/>the<sp/>HTTP<sp/>request<sp/>pipeline.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="_blazor_app_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.Environment.IsDevelopment())</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_blazor_app_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseExceptionHandler(</highlight><highlight class="stringliteral">&quot;/Error&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>default<sp/>HSTS<sp/>value<sp/>is<sp/>30<sp/>days.<sp/>You<sp/>may<sp/>want<sp/>to<sp/>change<sp/>this<sp/>for<sp/>production<sp/>scenarios,<sp/>see<sp/>https://aka.ms/aspnetcore-hsts.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_blazor_app_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseHsts();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="_blazor_app_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseHttpsRedirection();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><ref refid="_blazor_app_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseStaticFiles();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><ref refid="_blazor_app_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseRouting();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><ref refid="_blazor_app_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.MapBlazorHub();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><ref refid="_blazor_app_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.MapFallbackToPage(</highlight><highlight class="stringliteral">&quot;/_Host&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><ref refid="_blazor_app_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.Run();</highlight></codeline>
+    </programlisting>
+    <location file="BlazorApp/Program.cs"/>
+  </compounddef>
+</doxygen>

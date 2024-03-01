@@ -1,0 +1,67 @@
+\doxysection{Application.\+Logic\+Interfaces.\+IPost\+Logic Interface Reference}
+\hypertarget{interface_application_1_1_logic_interfaces_1_1_i_post_logic}{}\label{interface_application_1_1_logic_interfaces_1_1_i_post_logic}\index{Application.LogicInterfaces.IPostLogic@{Application.LogicInterfaces.IPostLogic}}
+Inheritance diagram for Application.\+Logic\+Interfaces.\+IPost\+Logic\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_application_1_1_logic_interfaces_1_1_i_post_logic}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Task$<$ \mbox{\hyperlink{class_domain_1_1models_1_1_post}{Post}} $>$ \mbox{\hyperlink{interface_application_1_1_logic_interfaces_1_1_i_post_logic_a0d6fea54b1b854ff16200fc8a8c9d9ad}{Create\+Async}} (\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_creation_dto}{Post\+Creation\+Dto}} dto)
+\item 
+Task$<$ IEnumerable$<$ \mbox{\hyperlink{class_domain_1_1models_1_1_post}{Post}} $>$ $>$ \mbox{\hyperlink{interface_application_1_1_logic_interfaces_1_1_i_post_logic_aba5061e67476a91ad473e1597fbf9c66}{Get\+Async}} (\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_search_post_parameters_dto}{Search\+Post\+Parameters\+Dto}} search\+Parameters)
+\item 
+Task \mbox{\hyperlink{interface_application_1_1_logic_interfaces_1_1_i_post_logic_aec125cfbaf249cbe95ed082cbcb6966c}{Update\+Async}} (\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_update_dto}{Post\+Update\+Dto}} dto)
+\item 
+Task$<$ \mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_basic_dto}{Post\+Basic\+Dto}} $>$ \mbox{\hyperlink{interface_application_1_1_logic_interfaces_1_1_i_post_logic_ad1ca02a5fc9edcb907017d65df3a9c84}{Get\+By\+Id\+Async}} (int id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_application_1_1_logic_interfaces_1_1_i_post_logic_a0d6fea54b1b854ff16200fc8a8c9d9ad}\label{interface_application_1_1_logic_interfaces_1_1_i_post_logic_a0d6fea54b1b854ff16200fc8a8c9d9ad} 
+\index{Application.LogicInterfaces.IPostLogic@{Application.LogicInterfaces.IPostLogic}!CreateAsync@{CreateAsync}}
+\index{CreateAsync@{CreateAsync}!Application.LogicInterfaces.IPostLogic@{Application.LogicInterfaces.IPostLogic}}
+\doxysubsubsection{\texorpdfstring{CreateAsync()}{CreateAsync()}}
+{\footnotesize\ttfamily Task$<$ \mbox{\hyperlink{class_domain_1_1models_1_1_post}{Post}} $>$ Application.\+Logic\+Interfaces.\+IPost\+Logic.\+Create\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_creation_dto}{Post\+Creation\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_application_1_1_logic_1_1_post_logic_a182e8451739675e863f08eb7b37d9b5e}{Application.\+Logic.\+Post\+Logic}}.
+
+\Hypertarget{interface_application_1_1_logic_interfaces_1_1_i_post_logic_aba5061e67476a91ad473e1597fbf9c66}\label{interface_application_1_1_logic_interfaces_1_1_i_post_logic_aba5061e67476a91ad473e1597fbf9c66} 
+\index{Application.LogicInterfaces.IPostLogic@{Application.LogicInterfaces.IPostLogic}!GetAsync@{GetAsync}}
+\index{GetAsync@{GetAsync}!Application.LogicInterfaces.IPostLogic@{Application.LogicInterfaces.IPostLogic}}
+\doxysubsubsection{\texorpdfstring{GetAsync()}{GetAsync()}}
+{\footnotesize\ttfamily Task$<$ IEnumerable$<$ \mbox{\hyperlink{class_domain_1_1models_1_1_post}{Post}} $>$ $>$ Application.\+Logic\+Interfaces.\+IPost\+Logic.\+Get\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_search_post_parameters_dto}{Search\+Post\+Parameters\+Dto}}}]{search\+Parameters }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_application_1_1_logic_1_1_post_logic_a05fa70cf013c89b1a0919b2002c7189a}{Application.\+Logic.\+Post\+Logic}}.
+
+\Hypertarget{interface_application_1_1_logic_interfaces_1_1_i_post_logic_ad1ca02a5fc9edcb907017d65df3a9c84}\label{interface_application_1_1_logic_interfaces_1_1_i_post_logic_ad1ca02a5fc9edcb907017d65df3a9c84} 
+\index{Application.LogicInterfaces.IPostLogic@{Application.LogicInterfaces.IPostLogic}!GetByIdAsync@{GetByIdAsync}}
+\index{GetByIdAsync@{GetByIdAsync}!Application.LogicInterfaces.IPostLogic@{Application.LogicInterfaces.IPostLogic}}
+\doxysubsubsection{\texorpdfstring{GetByIdAsync()}{GetByIdAsync()}}
+{\footnotesize\ttfamily Task$<$ \mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_basic_dto}{Post\+Basic\+Dto}} $>$ Application.\+Logic\+Interfaces.\+IPost\+Logic.\+Get\+By\+Id\+Async (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_application_1_1_logic_1_1_post_logic_ad1ef28d5184eac3ff03a5d79fac7db8e}{Application.\+Logic.\+Post\+Logic}}.
+
+\Hypertarget{interface_application_1_1_logic_interfaces_1_1_i_post_logic_aec125cfbaf249cbe95ed082cbcb6966c}\label{interface_application_1_1_logic_interfaces_1_1_i_post_logic_aec125cfbaf249cbe95ed082cbcb6966c} 
+\index{Application.LogicInterfaces.IPostLogic@{Application.LogicInterfaces.IPostLogic}!UpdateAsync@{UpdateAsync}}
+\index{UpdateAsync@{UpdateAsync}!Application.LogicInterfaces.IPostLogic@{Application.LogicInterfaces.IPostLogic}}
+\doxysubsubsection{\texorpdfstring{UpdateAsync()}{UpdateAsync()}}
+{\footnotesize\ttfamily Task Application.\+Logic\+Interfaces.\+IPost\+Logic.\+Update\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_domain_1_1_d_t_os_1_1_post_update_dto}{Post\+Update\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_application_1_1_logic_1_1_post_logic_ac803ae68fe48533a7f4393383b910259}{Application.\+Logic.\+Post\+Logic}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Application/\+Logic\+Interfaces/\mbox{\hyperlink{_i_post_logic_8cs}{IPost\+Logic.\+cs}}\end{DoxyCompactItemize}

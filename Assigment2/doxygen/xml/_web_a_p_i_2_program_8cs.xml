@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_web_a_p_i_2_program_8cs" kind="file" language="C#">
+    <compoundname>Program.cs</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" prot="public" static="no" mutable="no">
+        <type>var</type>
+        <definition>var builder</definition>
+        <argsstring></argsstring>
+        <name>builder</name>
+        <initializer>= WebApplication.CreateBuilder(args)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="7" column="5" bodyfile="WebAPI/Program.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" prot="public" static="no" mutable="no">
+        <type>var</type>
+        <definition>var app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <initializer>= builder.Build()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="25" column="5" bodyfile="WebAPI/Program.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1abc3694a0e15618f2499e5a540264f833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddControllers</definition>
+        <argsstring>()</argsstring>
+        <name>AddControllers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="11" column="16" declfile="WebAPI/Program.cs" declline="11" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a0d7859f9cad50e8e9fdf015100780e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddEndpointsApiExplorer</definition>
+        <argsstring>()</argsstring>
+        <name>AddEndpointsApiExplorer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="13" column="16" declfile="WebAPI/Program.cs" declline="13" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1ae0ce43c019a5621d731d0c622c793644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddSwaggerGen</definition>
+        <argsstring>()</argsstring>
+        <name>AddSwaggerGen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="14" column="16" declfile="WebAPI/Program.cs" declline="14" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a32d7bc2afdb2ab1b8cd24332feeb0aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddHttpClient</definition>
+        <argsstring>()</argsstring>
+        <name>AddHttpClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="15" column="16" declfile="WebAPI/Program.cs" declline="15" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a3b245bd9cec0926214206d043efa613a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddScoped&lt; FileContext &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>AddScoped&lt; FileContext &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="17" column="8" declfile="WebAPI/Program.cs" declline="17" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a95fc4a9c32b33ddac38e4068bd316037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddScoped&lt; IUserDao, UserFileDao &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>AddScoped&lt; IUserDao, UserFileDao &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="18" column="8" declfile="WebAPI/Program.cs" declline="18" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1afe00142d079f47b205fcaf1c9f5c636f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddScoped&lt; IUserLogic, UserLogic &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>AddScoped&lt; IUserLogic, UserLogic &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="19" column="8" declfile="WebAPI/Program.cs" declline="19" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a8dbf3f9bc1ec2aa3a46fb360fc92d025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddScoped&lt; IPostDao, PostFileDao &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>AddScoped&lt; IPostDao, PostFileDao &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="21" column="8" declfile="WebAPI/Program.cs" declline="21" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a761ff1b30e2e3e3a0893e9fc44e7b5de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>builder.Services.</type>
+        <definition>builder.Services. AddScoped&lt; IPostLogic, PostLogic &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>AddScoped&lt; IPostLogic, PostLogic &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="22" column="8" declfile="WebAPI/Program.cs" declline="22" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a490c4127fedc91f86231d9e4d1331522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseCors</definition>
+        <argsstring>(x=&gt; x .AllowAnyMethod() .AllowAnyHeader() .SetIsOriginAllowed(origin=&gt; true) .AllowCredentials())</argsstring>
+        <name>UseCors</name>
+        <param>
+          <type>x</type>
+        </param>
+        <param>
+          <type>x .</type>
+          <declname>AllowAnyMethod</declname>
+          <defname>::AllowAnyMethod</defname>
+          <array>) .AllowAnyHeader() .SetIsOriginAllowed(origin=&gt; true) .AllowCredentials(</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="27" column="4" declfile="WebAPI/Program.cs" declline="27" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a79a944c7f0e25196ca3c5a8638b919b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>if</definition>
+        <argsstring>(app.Environment.IsDevelopment())</argsstring>
+        <name>if</name>
+        <param>
+          <type>app.Environment.</type>
+          <declname>IsDevelopment</declname>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="34" column="1" bodyfile="WebAPI/Program.cs" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1aa4d447fc3129a3aa301d736b8bd04ae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseHttpsRedirection</definition>
+        <argsstring>()</argsstring>
+        <name>UseHttpsRedirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="40" column="4" declfile="WebAPI/Program.cs" declline="40" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1af6f72d752b2e73aa0292f74bd13237ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. UseAuthorization</definition>
+        <argsstring>()</argsstring>
+        <name>UseAuthorization</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="42" column="4" declfile="WebAPI/Program.cs" declline="42" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1a9e2ee3170aa6279b68eefd1651f7d96c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. MapControllers</definition>
+        <argsstring>()</argsstring>
+        <name>MapControllers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="44" column="4" declfile="WebAPI/Program.cs" declline="44" declcolumn="4"/>
+      </memberdef>
+      <memberdef kind="function" id="_web_a_p_i_2_program_8cs_1aaa3dbf02e269c3ef7e8546d290c6b3dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>app.</type>
+        <definition>app. Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="WebAPI/Program.cs" line="46" column="4" declfile="WebAPI/Program.cs" declline="46" declcolumn="4"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_application_1_1_dao_interfaces" kindref="compound">Application.DaoInterfaces</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_application_1_1_logic" kindref="compound">Application.Logic</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_application_1_1_logic_interfaces" kindref="compound">Application.LogicInterfaces</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_file_data" kindref="compound">FileData</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_file_data_1_1_d_a_os" kindref="compound">FileData.DAOs</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">var<sp/><ref refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref><sp/>=<sp/>WebApplication.CreateBuilder(args);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Add<sp/>services<sp/>to<sp/>the<sp/>container.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddControllers();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Learn<sp/>more<sp/>about<sp/>configuring<sp/>Swagger/OpenAPI<sp/>at<sp/>https://aka.ms/aspnetcore/swashbuckle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddEndpointsApiExplorer();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddSwaggerGen();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddHttpClient();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddScoped&lt;<ref refid="class_file_data_1_1_file_context" kindref="compound">FileContext</ref>&gt;();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddScoped&lt;<ref refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao" kindref="compound">IUserDao</ref>,<sp/><ref refid="class_file_data_1_1_d_a_os_1_1_user_file_dao" kindref="compound">UserFileDao</ref>&gt;();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddScoped&lt;<ref refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic" kindref="compound">IUserLogic</ref>,<sp/><ref refid="class_application_1_1_logic_1_1_user_logic" kindref="compound">UserLogic</ref>&gt;();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddScoped&lt;<ref refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao" kindref="compound">IPostDao</ref>,<sp/><ref refid="class_file_data_1_1_d_a_os_1_1_post_file_dao" kindref="compound">PostFileDao</ref>&gt;();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Services.AddScoped&lt;<ref refid="interface_application_1_1_logic_interfaces_1_1_i_post_logic" kindref="compound">IPostLogic</ref>,<sp/><ref refid="class_application_1_1_logic_1_1_post_logic" kindref="compound">PostLogic</ref>&gt;();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">var<sp/><ref refid="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref><sp/>=<sp/><ref refid="_web_a_p_i_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kindref="member">builder</ref>.Build();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseCors(x<sp/>=&gt;<sp/>x</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>.AllowAnyMethod()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>.AllowAnyHeader()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>.SetIsOriginAllowed(origin<sp/>=&gt;<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//<sp/>allow<sp/>any<sp/>origin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>.AllowCredentials());</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Configure<sp/>the<sp/>HTTP<sp/>request<sp/>pipeline.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.Environment.IsDevelopment())</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseSwagger();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseSwaggerUI();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseHttpsRedirection();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.UseAuthorization();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.MapControllers();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><ref refid="_web_a_p_i_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kindref="member">app</ref>.Run();</highlight></codeline>
+    </programlisting>
+    <location file="WebAPI/Program.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_8c888e3f1190d8e08b273c29d1443e32" kind="dir">
+    <compoundname>Domain</compoundname>
+    <innerdir refid="dir_142f28ba630de44da101f87319caa406">Domain/DTOs</innerdir>
+    <innerdir refid="dir_a99e85aa92eb633a23544b92f81fcc0c">Domain/models</innerdir>
+    <innerdir refid="dir_bbedd37c473ae4a8226c8dcbf7c99165">Domain/obj</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Domain/"/>
+  </compounddef>
+</doxygen>

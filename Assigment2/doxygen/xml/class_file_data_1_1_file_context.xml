@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_file_data_1_1_file_context" kind="class" language="C#" prot="public">
+    <compoundname>FileData::FileContext</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_file_data_1_1_file_context_1a63a09a986e0121def61422011ca461bf" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FileData.FileContext.FilePath</definition>
+        <argsstring></argsstring>
+        <name>FilePath</name>
+        <qualifiedname>FileData.FileContext.FilePath</qualifiedname>
+        <initializer>= &quot;data.json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileData/FileContext.cs" line="8" column="22" bodyfile="FileData/FileContext.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_file_data_1_1_file_context_1af7f720f676223cc2dcec9a7b0a585fc5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_file_data_1_1_data_container" kindref="compound">DataContainer</ref>?</type>
+        <definition>DataContainer? FileData.FileContext._dataContainer</definition>
+        <argsstring></argsstring>
+        <name>_dataContainer</name>
+        <qualifiedname>FileData.FileContext._dataContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileData/FileContext.cs" line="10" column="23" bodyfile="FileData/FileContext.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_file_data_1_1_file_context_1a2b853fa483d73c0eabccdd8a50c5d765" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_domain_1_1models_1_1_user" kindref="compound">User</ref> &gt;?</type>
+        <definition>ICollection&lt;User&gt;? FileData.FileContext.Users</definition>
+        <argsstring></argsstring>
+        <name>Users</name>
+        <qualifiedname>FileData.FileContext.Users</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileData/FileContext.cs" line="12" column="20" bodyfile="FileData/FileContext.cs" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_file_data_1_1_file_context_1a165aab09ca98a8a275f7781691e0beff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_domain_1_1models_1_1_post" kindref="compound">Post</ref> &gt;?</type>
+        <definition>ICollection&lt;Post&gt;? FileData.FileContext.Posts</definition>
+        <argsstring></argsstring>
+        <name>Posts</name>
+        <qualifiedname>FileData.FileContext.Posts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileData/FileContext.cs" line="21" column="20" bodyfile="FileData/FileContext.cs" bodystart="22" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_file_data_1_1_file_context_1a29180ea04f5e6dc239dc091dbaa528d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileData.FileContext.LazyLoadData</definition>
+        <argsstring>()</argsstring>
+        <name>LazyLoadData</name>
+        <qualifiedname>FileData.FileContext.LazyLoadData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileData/FileContext.cs" line="29" column="14" bodyfile="FileData/FileContext.cs" bodystart="29" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_file_data_1_1_file_context_1ad1d94fa4996c44109f6883a8923eed35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileData.FileContext.SaveChanges</definition>
+        <argsstring>()</argsstring>
+        <name>SaveChanges</name>
+        <qualifiedname>FileData.FileContext.SaveChanges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="FileData/FileContext.cs" line="47" column="13" bodyfile="FileData/FileContext.cs" bodystart="47" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FileData/FileContext.cs" line="6" column="7" bodyfile="FileData/FileContext.cs" bodystart="7" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_file_data_1_1_file_context_1af7f720f676223cc2dcec9a7b0a585fc5" prot="private" virt="non-virtual"><scope>FileData::FileContext</scope><name>_dataContainer</name></member>
+      <member refid="class_file_data_1_1_file_context_1a63a09a986e0121def61422011ca461bf" prot="private" virt="non-virtual"><scope>FileData::FileContext</scope><name>FilePath</name></member>
+      <member refid="class_file_data_1_1_file_context_1a29180ea04f5e6dc239dc091dbaa528d2" prot="private" virt="non-virtual"><scope>FileData::FileContext</scope><name>LazyLoadData</name></member>
+      <member refid="class_file_data_1_1_file_context_1a165aab09ca98a8a275f7781691e0beff" prot="public" virt="non-virtual"><scope>FileData::FileContext</scope><name>Posts</name></member>
+      <member refid="class_file_data_1_1_file_context_1ad1d94fa4996c44109f6883a8923eed35" prot="public" virt="non-virtual"><scope>FileData::FileContext</scope><name>SaveChanges</name></member>
+      <member refid="class_file_data_1_1_file_context_1a2b853fa483d73c0eabccdd8a50c5d765" prot="public" virt="non-virtual"><scope>FileData::FileContext</scope><name>Users</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
