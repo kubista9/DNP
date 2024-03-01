@@ -1,0 +1,65 @@
+@page "/AddHoleScoring"
+@using Blazor.Services
+@using global::Shared.DTOs
+@inject IScoringService ScoringService
+
+<div class="card">
+	<h3>Create scoring</h3>
+	<div class="form-group field">
+		<label>Hole id:</label>
+		<input type="text" @bind="_holeId" @bind:event="oninput"/>
+		@if (!string.IsNullOrEmpty(_resultMsg))
+		{
+			<label style="color: @_color">@_resultMsg</label>
+		}
+	</div>
+	<div class="form-group field">
+		<label>Round id:</label>
+		<input type="number" @bind="_roundId" @bind:event="oninput"/>
+		@if (!string.IsNullOrEmpty(_resultMsg))
+		{
+			<label style="color: @_color">@_resultMsg</label>
+		}
+	</div>
+	<div class="form-group field">
+		<label>Number of strikes:</label>
+		<input type="text" @bind="_numberOfStrikes" @bind:event="oninput"/>
+		@if (!string.IsNullOrEmpty(_resultMsg))
+		{
+			<label style="color: @_color">@_resultMsg</label>
+		}
+	</div>
+	<div class="button-row">
+		<button @onclick="Create" disabled="@(_holeId == 0)" class="acceptbtn">Create hole score</button>
+	</div>
+</div>
+
+@code {
+	private int _holeId;
+	private int _roundId;
+	private int _numberOfStrikes;
+	private string _resultMsg = "";
+	private string _color = "";
+
+	private async Task Create()
+	{
+		_resultMsg = "";
+
+		try
+		{
+			await ScoringService.CreateHoleScoreAsync(new HoleScoreCreationDto(_holeId, _roundId, _numberOfStrikes));
+			_holeId = 0;
+			_roundId = 0;
+			_numberOfStrikes = 0;
+			_resultMsg = "Hole score successfully created";
+			_color = "green";
+
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			_resultMsg = e.Message;
+			_color = "red";
+		}
+	}
+}

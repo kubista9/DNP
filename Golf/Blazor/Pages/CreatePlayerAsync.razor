@@ -1,0 +1,85 @@
+@page "/CreatePlayer"
+@using Blazor.Services
+@using global::Shared.DTOs
+@inject IPlayerService PlayerService
+
+<div class="card">
+	<h3>Create a player</h3>
+	<div class="form-group field">
+		<label>Name:</label>
+		<input type="text" @bind="_name" @bind:event="oninput"/>
+		@if (!string.IsNullOrEmpty(_resultMsg))
+		{
+			<label style="color: @_color">@_resultMsg</label>
+		}
+	</div>
+	<div class="form-group field">
+		<label>Age:</label>
+		<input type="number" @bind="_age" @bind:event="oninput"/>
+		@if (!string.IsNullOrEmpty(_resultMsg))
+		{
+			<label style="color: @_color">@_resultMsg</label>
+		}
+	</div>
+	<div class="form-group field">
+		<label>Phone:</label>
+		<input type="text" @bind="_phone" @bind:event="oninput"/>
+		@if (!string.IsNullOrEmpty(_resultMsg))
+		{
+			<label style="color: @_color">@_resultMsg</label>
+		}
+	</div>
+	<div class="form-group field">
+		<label>Membership fee:</label>
+		<input type="number" @bind="_membershipFee" @bind:event="oninput"/>
+		@if (!string.IsNullOrEmpty(_resultMsg))
+		{
+			<label style="color: @_color">@_resultMsg</label>
+		}
+	</div>
+	<div class="form-group field">
+		<label>Membership type:</label>
+		<input type="text" @bind="_membershipType" @bind:event="oninput"/>
+		@if (!string.IsNullOrEmpty(_resultMsg))
+		{
+			<label style="color: @_color">@_resultMsg</label>
+		}
+	</div>
+	<div class="button-row">
+		<button @onclick="Create" disabled="@(string.IsNullOrEmpty(_name) || string.IsNullOrEmpty(_membershipType))" class="acceptbtn">Create Player</button>
+	</div>
+</div>
+
+@code {
+	private string _name = "";
+	private int _age = 0;
+	private string? _phone = "";
+	private string _membershipType = "";
+	private double _membershipFee = 0;
+	private string _resultMsg = "";
+	private string _color = "";
+
+	private async Task Create()
+	{
+		_resultMsg = "";
+
+		try
+		{
+			await PlayerService.CreatePlayerAsync(new PlayerCreationDto(_name, _age, _phone, _membershipFee, _membershipType));
+			_name = "";
+			_age = 0;
+			_phone = "";
+			_membershipFee = 0;
+			_membershipType = "";
+			_resultMsg = "Player successfully created";
+			_color = "green";
+
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			_resultMsg = e.Message;
+			_color = "red";
+		}
+	}
+}

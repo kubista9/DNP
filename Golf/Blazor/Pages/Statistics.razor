@@ -1,0 +1,134 @@
+@page "/Statistics"
+@using Blazor.Services
+@inject IStatsService StatsService
+
+<div class="card">
+	<h3>Statistics</h3>
+
+	<div class="form-group field">
+		<label>Fetch average number of strikes of hole id with id:</label>
+		<input type="number" @bind="_holeIdAvgStrikes" @bind:event="oninput"/>
+
+		<button @onclick="GetHoleIdAvgStrikes" class="acceptbtn">Fetch</button>
+		<p role="status">Average: @_holeIdAvgStrikesToDisplay</p>
+
+		<div>
+			@if (!string.IsNullOrEmpty(_holeIdAvgStrikesResultMessage))
+			{
+				<label style="color: @_colorAvgStrikes">@_holeIdAvgStrikesResultMessage</label>
+			}
+		</div>
+	</div>
+
+
+	<div class="form-group field">
+		<label>Fetch sum of strikes in round:</label>
+		<input type="number" @bind="_roundId" @bind:event="oninput"/>
+		<label>by player:</label>
+		<input type="number" @bind="_playerId" @bind:event="oninput"/>
+
+		<button @onclick="GetRoundIdStrikesByPlayer" class="acceptbtn">Fetch</button>
+		<p role="status">Sum: @_playerIdForHandicapToDisplay</p>
+
+		<div>
+			@if (!string.IsNullOrEmpty(_roundIdStrikesByPlayerResultMsg))
+			{
+				<label style="color: @_color">@_roundIdStrikesByPlayerResultMsg</label>
+			}
+		</div>
+	</div>
+
+
+	<div class="form-group field">
+		<label>Fetch handicap of player with id:</label>
+		<input type="number" @bind="_playerIdForHandicap" @bind:event="oninput"/>
+
+		<button @onclick="GetPlayerIdHandicap" class="acceptbtn">Fetch</button>
+		<p role="status">Handicap: @_playerIdForHandicapToDisplay</p>
+
+		<div>
+			@if (!string.IsNullOrEmpty(_playerIdForHandicapResultMessage))
+			{
+				<label style="color: @_playerIdHandicapColor">@_playerIdForHandicapResultMessage</label>
+			}
+		</div>
+
+	</div>
+</div>
+
+@code {
+	private int _holeIdAvgStrikes;
+	private string _holeIdAvgStrikesResultMessage = "";
+	private double _holeIdAvgStrikesToDisplay;
+	private string _colorAvgStrikes = "";
+
+	private int _roundId;
+	private int _playerId ;
+	private string _roundIdStrikesByPlayerResultMsg = "";
+	private string _color = "";
+
+	private int _playerIdForHandicap;
+	private string _playerIdForHandicapResultMessage = "";
+	private int _playerIdForHandicapToDisplay;
+	private string _playerIdHandicapColor = "";
+
+	private async Task GetHoleIdAvgStrikes()
+	{
+		_holeIdAvgStrikesResultMessage = "";
+
+		try
+		{
+			_holeIdAvgStrikesToDisplay = await StatsService.GetHoleIdAvgStrikes(_holeIdAvgStrikes);
+			_holeIdAvgStrikes = 0;
+			_holeIdAvgStrikesResultMessage = "Statistics fetched successfully";
+			_colorAvgStrikes = "green";
+
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			_holeIdAvgStrikesResultMessage = e.Message;
+			_colorAvgStrikes = "red";
+		}
+	}
+
+	private async Task GetRoundIdStrikesByPlayer()
+	{
+		_roundIdStrikesByPlayerResultMsg = "";
+
+		try
+		{
+			await StatsService.GetRoundIdStrikesByPlayer(_roundId, _playerId);
+			_roundId = 0;
+			_playerId = 0;
+			_roundIdStrikesByPlayerResultMsg = "Statistics fetched successfully";
+			_color = "green";
+
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			_roundIdStrikesByPlayerResultMsg = e.Message;
+			_color = "red";
+		}
+	}
+
+	private async Task GetPlayerIdHandicap()
+	{
+		_playerIdForHandicapResultMessage = "";
+
+		try
+		{
+			_playerIdForHandicapToDisplay = await StatsService.GetPlayerIdHandicap(_playerIdForHandicap);
+			_playerIdForHandicap = 0;
+			_playerIdForHandicapResultMessage = "Statistics fetched successfully";
+			_playerIdHandicapColor = "green";
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			_roundIdStrikesByPlayerResultMsg = e.Message;
+			_playerIdHandicapColor = "red";
+		}
+	}
+}

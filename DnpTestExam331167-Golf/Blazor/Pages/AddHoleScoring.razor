@@ -1,0 +1,59 @@
+@page "/AddHoleScoring"
+@using HttpClients.ClientInterfaces
+@using global::Shared.DTOs
+@inject IHoleScoreService HoleScoreService;
+
+<h3>AddHoleScoring</h3>
+<div class="card">
+	<h3>Create Hole Scoring</h3>
+
+	<div class="form-group field">
+		<label>Hole id:</label>
+		<input @bind="holeId" @bind:event="oninput"/>
+	</div>
+
+	<div class="form-group field">
+		<label>Round ID:</label>
+		<input @bind="roundId" @bind:event="oninput"/>
+	</div>
+
+	<div class="form-group field">
+		<label>Number of strikes:</label>
+		<input @bind="numberOfStrikes" @bind:event="oninput"/>
+	</div>
+
+	<div class="button-row">
+        <button @onclick="Create" class="acceptbtn">Create</button>
+    </div>
+</div>
+
+<label style="color: @color">@resultMsg</label>
+
+@code {
+	private int holeId;
+	private int roundId;
+	private int numberOfStrikes;
+
+	private string resultMsg = "";
+	private string color = "";
+
+	private async Task Create()
+	{
+		resultMsg = "";
+		try
+		{
+			await HoleScoreService.CreateAsync(new HoleScoreCreationDto(holeId, roundId, numberOfStrikes));
+			holeId = 0;
+			roundId = 0;
+			numberOfStrikes = 0;
+			resultMsg = "Hole scoring successfully created";
+			color = "green";
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			resultMsg = e.Message;
+			color = "red";
+		}
+	}
+}

@@ -1,0 +1,72 @@
+@page "/CreatePlayer"
+@using HttpClients.ClientInterfaces
+@using global::Shared.DTOs
+@inject IPlayerService PlayerService;
+
+<h3>CreatePlayer</h3>
+<div class="card">
+
+	<div class="form-group field">
+		<label>Name:</label>
+		<input @bind="name" @bind:event="oninput"/>
+	</div>
+
+	<div class="form-group field">
+		<label>Age:</label>
+		<input @bind="age" @bind:event="oninput"/>
+	</div>
+
+	<div class="form-group field">
+		<label>Phone:</label>
+		<input @bind="phone" @bind:event="oninput"/>
+	</div>
+
+	<div class="form-group field">
+		<label>Membership fee:</label>
+		<input @bind="membershipFee" @bind:event="oninput"/>
+	</div>
+
+	<div class="form-group field">
+		<label>Membership type:</label>
+		<input @bind="membershipType" @bind:event="oninput"/>
+	</div>
+
+	<div class="button-row">
+		<button @onclick="Create" class="acceptbtn">Create</button>
+	</div>
+</div>
+
+<label style="color: @color">@resultMsg</label>
+
+@code {
+	private string name = "";
+	private int age;
+	private string phone = "";
+	private double membershipFee;
+	private string membershipType;
+
+	private string resultMsg = "";
+	private string color = "";
+
+	private async Task Create()
+	{
+		resultMsg = "";
+		try
+		{
+			await PlayerService.Create(new PlayerCreationDto(name, age, phone, membershipFee, membershipType));
+			name = "";
+			phone = "";
+			age = 0;
+			membershipFee = 0;
+			membershipType = "";
+			resultMsg = "Player successfully created";
+			color = "green";
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			resultMsg = "Error: " + e.Message;
+			color = "red";
+		}
+	}
+}
