@@ -1,0 +1,29 @@
+@page "/post"
+@using Domain.models
+@using Post = BlazorWebApp.Data.Post
+
+<PageTitle>Post{Title}</PageTitle>
+<h1>@GetPostTitle()</h1>
+<p>@GetPostBody()</p>
+<p>@GetAuthor()</p>
+
+@code {
+
+	private Post post;
+
+	private string? GetPostTitle()
+	{
+		return post.Title;
+	}
+
+	private string? GetPostBody()
+	{
+		return post.PostBody;
+	}
+
+	private User? GetAuthor()
+	{
+		return post.Owner;
+	}
+
+}

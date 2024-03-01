@@ -1,0 +1,48 @@
+@page "/fetchallposts"
+@using BlazorWebApp.Data
+@inject PostsService PostsService
+
+<PageTitle>Feed</PageTitle>
+
+<h1></h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+@if (posts == null)
+{
+	<p>
+		<em>Loading...</em>
+	</p>
+}
+else
+{
+	<table class="table">
+		<thead>
+		<tr>
+			<th>Title</th>
+			<th>Body</th>
+			<th>User</th>
+		</tr>
+		</thead>
+		<tbody>
+		@foreach (var post in posts)
+		{
+			<tr>
+				<td>@post.Title</td>
+				<td>@post.PostBody</td>
+				<td>@post.Owner</td>
+			</tr>
+		}
+		</tbody>
+	</table>
+}
+
+@code {
+	private List<Post>? posts;
+
+	protected override async Task OnInitializedAsync()
+	{
+		posts = await PostsService.GetPostsAsync();
+	}
+
+}

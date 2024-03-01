@@ -1,0 +1,77 @@
+@page "/CreateStudent"
+@using Blazor.Data
+@using global::Shared.Models
+@inject IStudentService StudentService
+
+<div class="card">
+	<h3>Create a player</h3>
+	<div class="form-group field">
+		<label>Name:</label>
+		<input type="text" @bind="_name" @bind:event="oninput"/>
+		@if (!string.IsNullOrEmpty(_resultMsg))
+		{
+			<label style="color: @_color">@_resultMsg</label>
+		}
+	</div>
+	<div class="form-group field">
+		<label>Student id:</label>
+		<select @bind="_studentId">
+			<option>Choose</option>
+			@foreach (Student student in _students)
+			{
+				<option value="@student.StudentId">@student.Name</option>
+			}
+			</select>
+		@if (!string.IsNullOrEmpty(_resultMsg))
+		{
+			<label style="color: @_color">@_resultMsg</label>
+		}
+	</div>
+	<div class="form-group field">
+		<label>Programme:</label>
+		<input type="text" @bind="_programme" @bind:event="oninput"/>
+		@if (!string.IsNullOrEmpty(_resultMsg))
+		{
+			<label style="color: @_color">@_resultMsg</label>
+		}
+	</div>
+	<div class="button-row">
+		<button @onclick="Create" disabled="@(string.IsNullOrEmpty(_name) || string.IsNullOrEmpty(_programme))" class="acceptbtn">Create Student</button>
+	</div>
+</div>
+
+@code {
+	private IEnumerable<Student>? _students;
+	private string _name = "";
+	private int _studentId;
+	private string _programme = "";
+	private string _resultMsg = "";
+	private string _color = "";
+
+	/*protected override async Task OnInitializedAsync()
+	{
+		_students = await StudentService.GetStudentsAsync();
+	}*/
+
+	private async Task Create()
+	{
+		_resultMsg = "";
+
+		try
+		{
+			await StudentService.CreateAsync(new Student(_studentId, _name, _programme));
+			_name = "";
+			_studentId = 0;
+			_programme = "";
+			_resultMsg = "Student successfully created";
+			_color = "green";
+
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e);
+			_resultMsg = e.Message;
+			_color = "red";
+		}
+	}
+}

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor", "Blazor\Blazor.csproj", "{0CF2D192-D2AC-4887-AAA4-B987836DCC66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{6BA43A4C-6A0E-4861-944E-9F2BD6D41B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFC", "EFC\EFC.csproj", "{77B762FB-58D5-492B-9371-92C498849DD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CF2D192-D2AC-4887-AAA4-B987836DCC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF2D192-D2AC-4887-AAA4-B987836DCC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF2D192-D2AC-4887-AAA4-B987836DCC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF2D192-D2AC-4887-AAA4-B987836DCC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA43A4C-6A0E-4861-944E-9F2BD6D41B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA43A4C-6A0E-4861-944E-9F2BD6D41B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA43A4C-6A0E-4861-944E-9F2BD6D41B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA43A4C-6A0E-4861-944E-9F2BD6D41B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B762FB-58D5-492B-9371-92C498849DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B762FB-58D5-492B-9371-92C498849DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B762FB-58D5-492B-9371-92C498849DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B762FB-58D5-492B-9371-92C498849DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

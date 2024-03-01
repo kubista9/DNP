@@ -1,0 +1,15 @@
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/bin/Debug/net7.0/ClientsHttp.deps.json
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/bin/Debug/net7.0/ClientsHttp.dll
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/bin/Debug/net7.0/ClientsHttp.pdb
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/bin/Debug/net7.0/Domain.dll
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/bin/Debug/net7.0/Domain.pdb
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/obj/Debug/net7.0/ClientsHttp.csproj.AssemblyReference.cache
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/obj/Debug/net7.0/ClientsHttp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/obj/Debug/net7.0/ClientsHttp.AssemblyInfoInputs.cache
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/obj/Debug/net7.0/ClientsHttp.AssemblyInfo.cs
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/obj/Debug/net7.0/ClientsHttp.csproj.CoreCompileInputs.cache
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/obj/Debug/net7.0/ClientsHttp.csproj.CopyComplete
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/obj/Debug/net7.0/ClientsHttp.dll
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/obj/Debug/net7.0/refint/ClientsHttp.dll
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/obj/Debug/net7.0/ClientsHttp.pdb
+/Users/jakubkuka/RiderProjects/Assigment1 - Forum/ClientsHttp/obj/Debug/net7.0/ref/ClientsHttp.dll

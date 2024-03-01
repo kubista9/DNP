@@ -1,0 +1,46 @@
+{
+  "Users": [
+    {
+      "Username": "jakub",
+      "Password": "password",
+      "Id": 1
+    },
+    {
+      "Username": "samo",
+      "Password": "pass",
+      "Id": 2
+    },
+    {
+      "Username": "peter",
+      "Password": "pass",
+      "Id": 3
+    },
+    {
+      "Username": "mato",
+      "Password": "password",
+      "Id": 4
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 0,
+      "Owner": {
+        "Username": "jakub",
+        "Password": "password",
+        "Id": 1
+      },
+      "Title": "Whatever",
+      "Body": null
+    },
+    {
+      "Id": 0,
+      "Owner": {
+        "Username": "samo",
+        "Password": "pass",
+        "Id": 2
+      },
+      "Title": "TestPost 2",
+      "Body": null
+    }
+  ]
+}
